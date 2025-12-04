@@ -1,5 +1,8 @@
 package com.example.examplemod;
 
+import net.minecraft.world.entity.player.Player;
+import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
+import net.neoforged.neoforge.event.entity.living.LivingEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -66,6 +69,8 @@ public class ExampleMod {
                 output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
+    public static final String MOD_ID = "examplemod";
+
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {
@@ -108,6 +113,13 @@ public class ExampleMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(EXAMPLE_BLOCK_ITEM);
+        }
+    }
+
+    @SubscribeEvent
+    public void livingDamage(LivingDamageEvent.Pre event) {
+        if(event.getSource().getDirectEntity() instanceof Player player) {
+            player.sendSystemMessage(Component.literal("sosat"));
         }
     }
 
