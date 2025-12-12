@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stuffymod:block/example_block"
+    },
+    "facing=south": {
+      "model": "stuffymod:block/example_block",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "stuffymod:block/example_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "stuffymod:block/example_block",
+      "y": 270
+    }
+  }
+}

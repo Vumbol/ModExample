@@ -2,6 +2,7 @@ package com.mod.stuffymod.registry;
 
 import com.mod.stuffymod.StuffyMod;
 import com.mod.stuffymod.registry.Items.SomePickaxeItem;
+import com.mod.stuffymod.registry.Items.SickleFlintItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -25,6 +26,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> SomePickaxeItem =
             ITEMS.register("some_pickaxe", SomePickaxeItem::new);
+
+    public static final DeferredItem<Item> SickleFlintItem = ITEMS.register("sickle_flint",
+                    () -> new SickleFlintItem(new Item.Properties().durability(32).stacksTo(1)));
 
     public static void register() {
 

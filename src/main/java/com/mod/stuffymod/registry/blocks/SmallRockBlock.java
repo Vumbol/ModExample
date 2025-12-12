@@ -12,11 +12,11 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class ExampleBlock extends HorizontalDirectionalBlock {
+public class SmallRockBlock extends HorizontalDirectionalBlock {
     public static final MapCodec<ExampleBlock> CODEC = simpleCodec(ExampleBlock::new);
-    public static final VoxelShape SHAPE = Block.box(5,0,5,11,16,11);
+    public static final VoxelShape SHAPE = Block.box(3,0,3,13,3,13);
 
-    public ExampleBlock(Properties properties) {
+    public SmallRockBlock(Properties properties) {
         super(properties);
     }
 

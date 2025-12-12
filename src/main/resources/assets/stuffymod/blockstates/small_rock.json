@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stuffymod:block/small_rock"
+    },
+    "facing=south": {
+      "model": "stuffymod:block/small_rock",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "stuffymod:block/small_rock",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "stuffymod:block/small_rock",
+      "y": 270
+    }
+  }
+}
