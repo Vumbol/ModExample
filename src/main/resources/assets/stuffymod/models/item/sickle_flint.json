@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "stuffymod:block/sickle_flint_texture",
-		"particle": "stuffymod:block/sickle_flint_texture"
+		"0": "stuffymod:item/sickle_flint_texture",
+		"particle": "stuffymod:item/sickle_flint_texture"
 	},
 	"elements": [
 		{

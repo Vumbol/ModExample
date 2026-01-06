@@ -22,8 +22,18 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.EXAMPLE_ITEM.get());
                                 output.accept(ModBlocks.EXAMPLE_BLOCK.get());
                                 output.accept(ModItems.SomePickaxeItem.get());
-                                output.accept(ModItems.SickleFlintItem.get());
+                                output.accept(ModItems.SICKLE_FLINT_ITEM.get());
                                 output.accept(ModBlocks.SMALL_ROCK.get());
+                                output.accept(ModItems.DIGGING_STICK_ITEM.get());
+                                output.accept(ModItems.FLINT_PICKAXE_ITEM.get());
+                                output.accept(ModItems.BAG_ITEM.get());
+                                output.accept(ModBlocks.STICK_PLACED.get());
+                                output.accept(ModBlocks.PRE_FARMLAND.get());
+                                output.accept(ModBlocks.PRE_FARMLAND_STAGE1.get());
+                                output.accept(ModBlocks.PRE_FARMLAND_STAGE2.get());
+                                output.accept(ModBlocks.PRE_FARMLAND_STAGE3.get());
+                                output.accept(ModBlocks.PRE_FARMLAND_STAGE4.get());
+                                output.accept(ModBlocks.PRE_FARMLAND_STAGE5.get());
                             }).build()
             );
 

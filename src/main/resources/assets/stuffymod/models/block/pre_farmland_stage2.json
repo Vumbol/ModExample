@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "minecraft:block/dirt",
+    "south": "stuffymod:block/pre_farmland_dirt_texture",
+    "north": "stuffymod:block/pre_farmland_dirt_texture",
+    "east": "stuffymod:block/pre_farmland_dirt_texture",
+    "west": "stuffymod:block/pre_farmland_dirt_texture",
+    "down": "stuffymod:block/pre_farmland_dirt_texture",
+    "up": "stuffymod:block/pre_farmland_stage2_texture"
+  }
+}
