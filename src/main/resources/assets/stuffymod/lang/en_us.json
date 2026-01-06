@@ -3,5 +3,14 @@
   "block.stuffymod.example_block": "Example Block",
   "item.stuffymod.example_item": "Example Item",
   "item.stuffymod.sickle_flint": "Flint sickle",
-  "block.stuffymod.small_rock": "Small rock"
+  "block.stuffymod.small_rock": "Small rock",
+  "item.stuffymod.digging_stick": "Digging stick",
+  "item.stuffymod.flint_pickaxe": "Flint pickaxe",
+  "item.stuffymod.bag_item": "Bag",
+  "block.stuffymod.stick_placed": "Placed stick",
+  "block.stuffymod.pre_farmland_stage1": "Pre-farmland stage1",
+  "block.stuffymod.pre_farmland_stage2": "Pre-farmland stage2",
+  "block.stuffymod.pre_farmland_stage3": "Pre-farmland stage3",
+  "block.stuffymod.pre_farmland_stage4": "Pre-farmland stage4",
+  "block.stuffymod.pre_farmland_stage5": "Pre-farmland stage5"
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "tag": "c:rods/wooden"
+    },
+    "Y": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "Y  ",
+    "YX ",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stuffymod:sickle_flint"
+  }
+}

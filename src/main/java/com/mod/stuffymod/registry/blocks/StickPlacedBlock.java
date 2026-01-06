@@ -19,11 +19,11 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class SmallRockBlock extends HorizontalDirectionalBlock {
+public class StickPlacedBlock extends HorizontalDirectionalBlock {
     public static final MapCodec<ExampleBlock> CODEC = simpleCodec(ExampleBlock::new);
-    public static final VoxelShape SHAPE = Block.box(3,0,3,13,3,13);
+    public static final VoxelShape SHAPE = Block.box(2,0,2,14,2,14);
 
-    public SmallRockBlock(Properties properties) {
+    public StickPlacedBlock(Properties properties) {
         super(properties);
     }
 
@@ -53,7 +53,7 @@ public class SmallRockBlock extends HorizontalDirectionalBlock {
         if (player.getMainHandItem().getItem() == Items.AIR) {
             spawnDestroyParticles(level, player, pos, state);
             if (!level.isClientSide) {
-                ItemStack itemStack = new ItemStack(Items.FLINT);
+                ItemStack itemStack = new ItemStack(Items.STICK);
                 player.addItem(itemStack);
                 level.removeBlock(pos, false);
 
